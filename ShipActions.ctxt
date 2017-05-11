@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ShipActions
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ShipActions\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ getHealth()
+comment2.params=newHealth
+comment2.target=void\ setHealth(int)
+comment3.params=name
+comment3.target=void\ healthSprite(java.lang.String)
+numComments=4
