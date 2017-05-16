@@ -6,13 +6,13 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Ocean extends World
+public class Level1 extends World
 {
     /**
      * Constructor for objects of class Ocean.
      * 
      */
-    public Ocean()
+    public Level1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1280, 720, 1); 
@@ -27,5 +27,10 @@ public class Ocean extends World
     private void prepare()
     {
 
+        Base base = new Base();
+        addObject(base,935,165);
+        base.setLocation(932,143);
+        Cursor cursor = new Cursor();
+        addObject(cursor,1270,713);
     }
 }

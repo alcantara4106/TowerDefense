@@ -1,22 +1,24 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Cannon here.
+ * Write a description of class TowerBase here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Cannon extends Actor
+public class TowerBase extends Actor
 {
     int towerID;
-    public Cannon(int towerNumber)
+    public TowerBase(int towerNumber)
     {
         super();
         this.towerID = towerNumber;
-        setImage("towers/cannon" + towerID + ".png");
+        setImage("towers/towerbase" + towerID + ".png");
+        Cannon cannon = new Cannon(1);
+        getWorld().addObject(cannon,getX(),getY());
     }
     /**
-     * Act - do whatever the Cannon wants to do. This method is called whenever
+     * Act - do whatever the TowerBase wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
