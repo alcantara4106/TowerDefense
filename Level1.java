@@ -28,9 +28,11 @@ public class Level1 extends World
     {
 
         Base base = new Base();
-        addObject(base,935,165);
-        base.setLocation(932,143);
+        addObject(base,880,160);
+        base.setLocation(880,160);
         Cursor cursor = new Cursor();
         addObject(cursor,1270,713);
+        Path path1 = new Path();
+        addObject(path1,599,353);
     }
 }

@@ -12,7 +12,9 @@ public class TowerBase extends Actor
     public TowerBase(int towerNumber)
     {
         super();
-        this.towerID = towerNumber;
+        this.towerID = towerNumber;        
+    }
+    protected void addedToWorld(World world){
         setImage("towers/towerbase" + towerID + ".png");
         Cannon cannon = new Cannon(1);
         getWorld().addObject(cannon,getX(),getY());
