@@ -33,6 +33,14 @@ public class Level1 extends World
         Cursor cursor = new Cursor();
         addObject(cursor,1270,713);
         Path path1 = new Path();
-        addObject(path1,599,353);
+        addObject(path1,600,320);
+        
+        Menu menu = new Menu();
+        addObject(menu,1175,360);
+        Menu menu2 = new Menu();
+        addObject(menu2,105,360);
+        
+        Runner runner = new Runner();
+        addObject(runner,302,56);
     }
 }

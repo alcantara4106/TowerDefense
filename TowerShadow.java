@@ -35,7 +35,7 @@ public class TowerShadow extends Actor
             }
         }
         if(instanceExists == false){
-            //getWorld().removeObject(this);
+            getWorld().removeObject(this);
         }
     }    
 }

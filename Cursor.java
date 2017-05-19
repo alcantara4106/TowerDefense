@@ -18,5 +18,9 @@ public class Cursor extends Actor
         if(mouse!=null){
             this.setLocation(mouse.getX(),mouse.getY());
         }
+        if(Greenfoot.isKeyDown("f")){
+            System.out.println("mouse_x: " + mouse.getX() + " ");
+            System.out.println("mouse_y" + mouse.getY() + " ");
+        }
     }    
 }

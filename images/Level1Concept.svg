@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Level1Concept.svg">
+   sodipodi:docname="Level1Concept.svg"
+   inkscape:export-filename="C:\Users\alcantara94106\Documents\CSA\TowerDefense\images\health\health0.png"
+   inkscape:export-xdpi="90.099998"
+   inkscape:export-ydpi="90.099998">
   <defs
      id="defs4">
     <marker
@@ -54,17 +57,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748738"
-     inkscape:cx="-397.28668"
-     inkscape:cy="491.67994"
+     inkscape:zoom="3.9597981"
+     inkscape:cx="342.41323"
+     inkscape:cy="821.284"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="883"
-     inkscape:window-height="573"
-     inkscape:window-x="32"
-     inkscape:window-y="95"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      showguides="true" />
   <metadata
      id="metadata7">
@@ -457,5 +460,151 @@
          x="-317.14285"
          y="1088.8363"
          id="tspan4686"> V</tspan></text>
+    <rect
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:7.5911231;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4757"
+       width="173.17542"
+       height="678.25171"
+       x="873.02643"
+       y="136.44942"
+       inkscape:export-xdpi="89.800003"
+       inkscape:export-ydpi="89.800003" />
+    <path
+       inkscape:transform-center-x="-5.2468615"
+       transform="matrix(-0.003729,-0.70274793,0.70274793,-0.003729,-940.42184,937.2159)"
+       inkscape:transform-center-y="0.19553565"
+       d="m -140,629.61978 -34.69069,-60.08604 -34.69069,-60.08603 69.38138,0 69.381378,0 -34.690688,60.08604 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="2.6179939"
+       sodipodi:arg1="1.5707963"
+       sodipodi:r2="40.057358"
+       sodipodi:r1="80.114716"
+       sodipodi:cy="549.50507"
+       sodipodi:cx="-140"
+       sodipodi:sides="3"
+       id="path4198"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:9.96075726;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:type="star"
+       inkscape:export-filename="C:\Users\alcantara94106\Documents\CSA\TowerDefense\images\enemies\enemy1.png"
+       inkscape:export-xdpi="89.800003"
+       inkscape:export-ydpi="89.800003" />
+    <rect
+       y="161.30237"
+       x="324.29727"
+       height="16.405432"
+       width="109.26257"
+       id="rect4201"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.02314043;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.02314043;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4199"
+       width="109.26257"
+       height="16.405432"
+       x="324.29727"
+       y="161.30237"
+       inkscape:export-filename="C:\Users\alcantara94106\Documents\CSA\TowerDefense\images\health\health0.png"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       ry="48.791206"
+       rx="51.314888"
+       cy="0.713875"
+       cx="84.994324"
+       id="ellipse4309"
+       style="opacity:1;fill:#e83600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#e83600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4307"
+       cx="124.25162"
+       cy="-73.314156"
+       rx="51.314888"
+       ry="48.791206"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       ry="48.791206"
+       rx="51.314888"
+       cy="-61.536964"
+       cx="22.743471"
+       id="ellipse4305"
+       style="opacity:1;fill:#e83600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4295"
+       cx="50.223576"
+       cy="-92.381996"
+       rx="51.314888"
+       ry="48.791206"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       ry="48.791206"
+       rx="51.314888"
+       cy="-74.99662"
+       cx="79.386139"
+       id="ellipse4297"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4299"
+       cx="40.128849"
+       cy="-11.624105"
+       rx="51.314888"
+       ry="48.791206"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       ry="48.791206"
+       rx="51.314888"
+       cy="-29.009481"
+       cx="96.210693"
+       id="ellipse4301"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4303"
+       cx="131.54227"
+       cy="-43.029961"
+       rx="51.314888"
+       ry="48.791206"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4289"
+       cx="48.260715"
+       cy="-43.310356"
+       rx="42.622204"
+       ry="40.098518"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4291"
+       cx="81.068604"
+       cy="-80.604805"
+       rx="36.172791"
+       ry="34.209927"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
+    <ellipse
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4293"
+       cx="97.184547"
+       cy="-35.269428"
+       rx="26.078056"
+       ry="38.416065"
+       inkscape:export-xdpi="90.099998"
+       inkscape:export-ydpi="90.099998" />
   </g>
 </svg>
