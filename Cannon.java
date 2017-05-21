@@ -9,11 +9,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Cannon extends Actor
 {
     int towerID;
+    int pause;
+    Enemy closestEnemy;
     public Cannon(int towerNumber)
     {
         super();
         this.towerID = towerNumber;
         setImage("towers/cannon" + towerID + ".png");
+        pause = 30;
+        setRotation(270);
     }
     /**
      * Act - do whatever the Cannon wants to do. This method is called whenever
@@ -21,6 +25,17 @@ public class Cannon extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if(!getObjectsInRange(200, Enemy.class).isEmpty()){
+            closestEnemy = getObjectsInRange(200, Enemy.class).get(0);
+            turnTowards(closestEnemy.getX(),closestEnemy.getY());
+            System.out.println("X: " + closestEnemy.getX());
+            System.out.println("Y: " + closestEnemy.getY());
+        }
+        if(pause > 0){
+            pause --; 
+        }
+        else{
+            pause = 30;
+        }
     }    
 }

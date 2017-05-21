@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class HealthBar extends Actor
 {
+    Base base;
     public void addedToWorld(World world){
         
     }
@@ -17,6 +18,20 @@ public class HealthBar extends Actor
      */
     public void act() 
     {
-        getObjectsAtOffset(getX(), getY()-10, Base.class);
+        base = getObjectsInRange(100, Base.class).get(0);
+        if(base.getHealth() > 0){
+            setImage("health/health" + Math.min(base.getHealth(),4) + ".png");
+        }
+        else{
+            setImage("health/health0.png");
+            gameOver();
+        }
     }    
+    public void gameOver(){
+        GameOver text = new GameOver();
+        getWorld().addObject(text,getWorld().getWidth()/2,getWorld().getHeight()/2);
+        Explosion splode = new Explosion();
+        getWorld().addObject(splode,base.getX(),base.getY());
+        Greenfoot.stop();
+    }
 }

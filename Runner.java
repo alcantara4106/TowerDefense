@@ -19,10 +19,12 @@ public class Runner extends Actor
             pause --;
         }
         else{
-            pause = (int)(Math.random() * 10) + 50;
-            //1 will be replaced with a random int in final version for randomized enemies
-            Enemy enemy = new Enemy(1);            
-            getWorld().addObject(enemy,0,480);
+            if(Greenfoot.isKeyDown("space")){
+                pause = (int)(Math.random() * 50) + 30;
+                //1 will be replaced with a random int in final version for randomized enemies
+                Enemy enemy = new Enemy(1);            
+                getWorld().addObject(enemy,0,480);
+            }
         }
     }    
 }

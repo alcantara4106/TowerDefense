@@ -29,7 +29,8 @@ public class Level1 extends World
 
         Base base = new Base();
         addObject(base,880,160);
-        base.setLocation(880,160);
+        HealthBar health = new HealthBar();
+        addObject(health,880,90);
         Cursor cursor = new Cursor();
         addObject(cursor,1270,713);
         Path path1 = new Path();
@@ -42,5 +43,7 @@ public class Level1 extends World
         
         Runner runner = new Runner();
         addObject(runner,302,56);
+        
+        setPaintOrder(Enemy.class,Menu.class);
     }
 }

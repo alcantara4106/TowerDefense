@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 /**
  * Write a description of class Enemy here.
  * 
@@ -32,5 +32,16 @@ public class Enemy extends Actor
             setRotation(270);
             setLocation(getX(), getY() - speed);
         }
+        checkCollision();
     }    
+    public void checkCollision(){
+        List<Base>targets = getIntersectingObjects(Base.class);
+        
+        if (targets.isEmpty() != true) {
+            for (Base b : targets) {
+                b.setHealth(b.getHealth() - 1);
+            }            
+            getWorld().removeObject(this);
+        }
+    }
 }

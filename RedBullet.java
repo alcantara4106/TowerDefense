@@ -6,7 +6,7 @@ import java.util.List;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class RedBullet extends Bullet
+public class RedBullet extends Bullet2
 {
     int delay = 10;
     /**

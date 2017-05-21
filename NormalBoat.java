@@ -20,7 +20,7 @@ public class NormalBoat extends Ship
             pause = 30;
         }
         if(Greenfoot.isKeyDown("M") && pause <= 0){
-            Bullet bullet = new Bullet();
+            Bullet2 bullet = new Bullet2();
             getWorld().addObject(bullet,getX()+100,getY());
             pause = 30;
         }

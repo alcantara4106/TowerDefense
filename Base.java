@@ -8,6 +8,10 @@ import java.util.List;
  */
 public class Base extends Actor
 {
+    int health;
+    public void addedToWorld(World world){
+        health = 4;
+    }
     /**
      * Act - do whatever the Base wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -25,4 +29,10 @@ public class Base extends Actor
             }
         }
     }    
+    public int getHealth(){
+        return this.health;
+    }
+    public void setHealth(int newHealth){
+        this.health = newHealth;
+    }
 }
