@@ -10,6 +10,8 @@ public class Enemy extends Actor
 {
     int enemyID;
     int speed;
+    int health;
+    boolean instanceExists = true;
     public Enemy(int enemyNumber)
     {
         super();
@@ -17,6 +19,7 @@ public class Enemy extends Actor
         setImage("enemies/enemy" + enemyID + ".png");
         if(enemyNumber == 1){
             speed = 3;
+            health = 2;
         }
     }    
     /**
@@ -32,7 +35,13 @@ public class Enemy extends Actor
             setRotation(270);
             setLocation(getX(), getY() - speed);
         }
+        if(health == 0){
+            instanceExists = false;
+        }
         checkCollision();
+        if(instanceExists==false){
+            getWorld().removeObject(this);
+        }
     }    
     public void checkCollision(){
         List<Base>targets = getIntersectingObjects(Base.class);
@@ -41,7 +50,13 @@ public class Enemy extends Actor
             for (Base b : targets) {
                 b.setHealth(b.getHealth() - 1);
             }            
-            getWorld().removeObject(this);
+            instanceExists = false;
         }
+    }
+    public int getHealth(){
+        return this.health;
+    }
+    public void setHealth(int newHealth){
+        this.health = newHealth;
     }
 }

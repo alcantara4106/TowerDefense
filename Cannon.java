@@ -17,7 +17,7 @@ public class Cannon extends Actor
         this.towerID = towerNumber;
         setImage("towers/cannon" + towerID + ".png");
         pause = 30;
-        setRotation(270);
+        setRotation(90);
     }
     /**
      * Act - do whatever the Cannon wants to do. This method is called whenever
@@ -28,14 +28,21 @@ public class Cannon extends Actor
         if(!getObjectsInRange(200, Enemy.class).isEmpty()){
             closestEnemy = getObjectsInRange(200, Enemy.class).get(0);
             turnTowards(closestEnemy.getX(),closestEnemy.getY());
-            System.out.println("X: " + closestEnemy.getX());
-            System.out.println("Y: " + closestEnemy.getY());
+            if(getRotation() < 180){
+                turn(-30);
+            }
+            else if(getRotation() >= 180 && getRotation() < 361){
+                turn(30);
+            }
+            if(pause > 0){
+                pause --; 
+            }
+            else{
+                pause = 30;
+                Bullet bullet = new Bullet(5,this.getRotation());
+                getWorld().addObject(bullet,getX(),getY());
+            }
         }
-        if(pause > 0){
-            pause --; 
-        }
-        else{
-            pause = 30;
-        }
+        
     }    
 }
